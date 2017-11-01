@@ -1,0 +1,11 @@
+" NerdTree {
+    if isdirectory(expand("~/.vim/bundle/nerdtree"))
+        nnoremap <leader>bm :Bookmark 
+        nnoremap <leader>br :BookmarkToRoot 
+        nnoremap <leader>rb :RevealBookmark 
+        nnoremap <leader>ob :OpenBookmark
+        nnoremap <leader>cb :ClearBookmarks 
+        nnoremap <leader>cab :ClearAllBookmark<CR>
+    endif
+" }
+
