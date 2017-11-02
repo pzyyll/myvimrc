@@ -10,5 +10,5 @@
 " }
 
 " ctags {
-    nmap <F1> :!ctags -R --fields=+iaS --extra=+q .<CR><CR>
+    nmap <F1> :!ctags -R --fields=+iaS --extra=+fq .<CR><CR>
 " }
