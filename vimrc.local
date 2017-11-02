@@ -9,3 +9,6 @@
     endif
 " }
 
+" ctags {
+    nmap <F1> :!ctags -R --fields=+iaS --extra=+q .<CR><CR>
+" }
