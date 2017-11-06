@@ -11,7 +11,8 @@
 
 " ctags {
     " for qtz lpc language
-    nmap <F1> :!ctags -R --fields=+iaS --extra=+fq --langmap=c++:+.c --regex-c++="/^[ \t]*\#import[ \t]+.*[ \t]+as[ \t]+(.*)[ \t]*/\1/" .<CR><CR>
+    nmap <F1> :!ctags -R --fields=+iaS --extra=+fq --langmap=c++:+.c --regex-c++="/^[ \t]*\#import[ \t]+.*[ \t]+as[ \t]+(.*)[ \t]*/\1/" --regex-c++="/.*\".+\"->([^()]+)\(.*\).*/\1/" .<CR><CR>
     " for normal language auto
     nmap <F2> :!ctags -R --fields=+iaS --extra=+fq --langmap=c:+.h .<CR><CR>
 " }
+

@@ -1,2 +1,2 @@
 # myvimrc
-vimrc
+vimrc for spf13__vim
